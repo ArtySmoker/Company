@@ -406,11 +406,6 @@ footer {
         display: block;
     }
 
-
-
-
-
-
     main .main_welcome {
         padding: 50px 0 50px 0;
     }
@@ -466,4 +461,28 @@ footer {
     .line3 img:not(:first-child) {
         display: none;
     }
+
+    .form_inputs {
+        flex-direction: column;
+    }
+
+    input:first-of-type {
+        margin-right: 0;
+    }
+
+    .contact_wrapper h1 {
+        margin-right: 30%;
+    }
+
+    .contact_wrapper p {
+        margin-right: 30%;
+    }
+    textarea {
+        width: 40%;
+    }
+
+    .button_block {
+        justify-content: start;
+    }
+
 }
